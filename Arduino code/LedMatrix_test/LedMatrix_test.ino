@@ -1,7 +1,7 @@
 #include "LedControl.h"
-#define DIN 2
-#define CS 3
-#define CLK 4
+#define DIN 7
+#define CS 5
+#define CLK 6
 #define Moduli 1 //Numero di moduli connessi, da passare poi come parametro
 
 LedControl lc = LedControl(DIN, CLK, CS, Moduli);
