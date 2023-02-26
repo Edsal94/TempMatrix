@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 8x8_LedMatrix_StdBoard
+#
+DEF 8x8_LedMatrix_StdBoard U 0 40 Y Y 1 F N
+F0 "U" -200 350 50 H V C CNN
+F1 "8x8_LedMatrix_StdBoard" 550 350 50 H V C CNN
+F2 "" -200 350 50 H I C CNN
+F3 "" -200 350 50 H I C CNN
+DRAW
+S -300 300 300 -300 0 1 0 f
+S 250 50 250 50 0 1 0 F
+X VDD 1 50 400 100 D 50 50 1 1 I
+X DIN 2 -400 150 100 R 50 50 1 1 I
+X CS 3 -400 0 100 R 50 50 1 1 I
+X CLK 4 -400 -150 100 R 50 50 1 1 I
+X GND 5 50 -400 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
